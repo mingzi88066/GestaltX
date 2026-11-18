@@ -518,5 +518,21 @@
   "Don't Ask Again": "No volver a preguntar",
   "Cannot reach the device console. Open LocalDevVPN, wait for it to connect, then try again.": "No se puede conectar con la consola del dispositivo. Abre LocalDevVPN, espera a que conecte y vuelve a intentarlo.",
   "If this stays here, open LocalDevVPN and wait for it to finish connecting.": "Si se queda aquí, abre LocalDevVPN y espera a que termine de conectar.",
-  "Disabling may show a Wi-Fi entry instead of WLAN. Restart to apply.": "Al desactivarlo, puede mostrarse Wi-Fi y cambiar algunas opciones de red. Reinicia el dispositivo para aplicar los cambios."
+  "Disabling may show a Wi-Fi entry instead of WLAN. Restart to apply.": "Al desactivarlo, puede mostrarse Wi-Fi y cambiar algunas opciones de red. Reinicia el dispositivo para aplicar los cambios.",
+  "System Version": "Versión del sistema",
+  "Version Spoof": "Suplantación de versión",
+  "Custom Version": "Versión personalizada",
+  "Version": "Versión",
+  "Build": "Compilación",
+  "Use Current Values": "Usar valores actuales",
+  "Staged": "Preparado",
+  "Current": "Actual",
+  "MobileGestalt Version": "Versión de MobileGestalt",
+  "Restart the device before other processes report the spoofed version.": "Reinicia el dispositivo para que otros procesos informen la versión suplantada.",
+  "Enter a version, a build, or both before applying.": "Introduce una versión, una compilación o ambas antes de aplicar.",
+  "Enter a marketing version such as 27.2 and a build such as 24C101. An empty field keeps its current value.": "Introduce una versión como 27.2 y una compilación como 24C101. Un campo vacío conserva su valor actual.",
+  "A spoofed pair that no build ever reported can confuse OTA updates, App Store compatibility checks and system services.": "Un par suplantado que ninguna compilación publicó puede confundir las actualizaciones OTA, las comprobaciones de compatibilidad de App Store y los servicios del sistema.",
+  "libMobileGestalt answers version queries from these keys. A restart is required before other processes read the new values.": "libMobileGestalt responde a las consultas de versión con estas claves. Se requiere reiniciar el dispositivo antes de que otros procesos lean los valores nuevos.",
+  "Enter a version such as 27.2. Use up to three numeric components.": "Introduce una versión como 27.2. Se permiten hasta tres componentes numéricos.",
+  "Enter a build such as 24C101: two digits, a letter, then the build number.": "Introduce una compilación como 24C101: dos dígitos, una letra y el número de compilación."
 }

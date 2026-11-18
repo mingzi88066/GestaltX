@@ -20,7 +20,7 @@ struct SystemVersionView: View {
         let version = model.versionSpoof.trimmedVersion
         let build = model.versionSpoof.trimmedBuild
         switch (version.isEmpty, build.isEmpty) {
-        case (true, true): return L("Nothing staged")
+        case (true, true): return L("Not present")
         case (false, true): return version
         case (true, false): return build
         case (false, false): return "\(version) (\(build))"
@@ -31,7 +31,7 @@ struct SystemVersionView: View {
         Form {
             Section(L("Current")) {
                 LabeledContent(L("Device"), value: "\(UIDevice.current.systemVersion) (\(VersionSupport.label))")
-                LabeledContent(L("MobileGestalt"), value: model.storedSystemVersionText)
+                LabeledContent("MobileGestalt", value: model.storedSystemVersionText)
             }
             Section {
                 Picker(L("Version Spoof"), selection: $model.versionSpoof.choice) {
@@ -64,17 +64,13 @@ struct SystemVersionView: View {
                     LabeledContent(L("Staged"), value: stagedText)
                 }
                 HStack(alignment: .firstTextBaseline) {
-                    if model.versionSpoof.choice != .keep {
-                        Text(L("The change is applied with Apply Changes, not immediately."))
-                            .font(.caption).foregroundStyle(.secondary)
-                    }
                     Spacer(minLength: 8)
                     Button(L("Revert")) { Task { await model.restoreSystemVersion() } }
                         .font(.caption).buttonStyle(.borderless)
                         .disabled(!model.canRestoreSystemVersion)
                 }
             } header: {
-                Text(L("Preset"))
+                Text(L("Presets"))
             } footer: {
                 VStack(alignment: .leading, spacing: 6) {
                     Text(L("Enter a marketing version such as 27.2 and a build such as 24C101. An empty field keeps its current value."))
@@ -82,7 +78,7 @@ struct SystemVersionView: View {
                 }
             }
             if let error = model.versionSpoofError {
-                Section(L("Check the Values")) { Text(error).font(.footnote).foregroundStyle(.red) }
+                Section { Text(error).font(.footnote).foregroundStyle(.red) }
             }
             Section {
                 ForEach(SystemVersionKey.all, id: \.self) { key in

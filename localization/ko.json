@@ -518,5 +518,21 @@
   "Don't Ask Again": "다시 묻지 않기",
   "Cannot reach the device console. Open LocalDevVPN, wait for it to connect, then try again.": "기기 콘솔에 연결할 수 없습니다. LocalDevVPN을 열고 연결될 때까지 기다린 후 다시 시도하세요.",
   "If this stays here, open LocalDevVPN and wait for it to finish connecting.": "여기서 멈춰 있으면 LocalDevVPN을 열고 연결이 완료될 때까지 기다리세요.",
-  "Disabling may show a Wi-Fi entry instead of WLAN. Restart to apply.": "비활성화하면 Wi-Fi로 표시되고 일부 네트워크 옵션이 변경될 수 있습니다. 적용하려면 기기를 재시동하세요."
+  "Disabling may show a Wi-Fi entry instead of WLAN. Restart to apply.": "비활성화하면 Wi-Fi로 표시되고 일부 네트워크 옵션이 변경될 수 있습니다. 적용하려면 기기를 재시동하세요.",
+  "System Version": "시스템 버전",
+  "Version Spoof": "버전 위장",
+  "Custom Version": "사용자 지정 버전",
+  "Version": "버전",
+  "Build": "빌드",
+  "Use Current Values": "현재 값 사용",
+  "Staged": "준비됨",
+  "Current": "현재",
+  "MobileGestalt Version": "MobileGestalt 버전",
+  "Restart the device before other processes report the spoofed version.": "다른 프로세스가 위장된 버전을 보고하려면 기기를 재시작하세요.",
+  "Enter a version, a build, or both before applying.": "적용하기 전에 버전, 빌드 또는 둘 다 입력하세요.",
+  "Enter a marketing version such as 27.2 and a build such as 24C101. An empty field keeps its current value.": "27.2 같은 버전과 24C101 같은 빌드를 입력하세요. 비워 둔 항목은 현재 값을 유지합니다.",
+  "A spoofed pair that no build ever reported can confuse OTA updates, App Store compatibility checks and system services.": "실제로 배포된 적 없는 조합을 위장하면 OTA 업데이트, App Store 호환성 확인 및 시스템 서비스에 문제가 생길 수 있습니다.",
+  "libMobileGestalt answers version queries from these keys. A restart is required before other processes read the new values.": "libMobileGestalt는 이 키로 버전을 응답합니다. 다른 프로세스가 새 값을 읽으려면 재시작이 필요합니다.",
+  "Enter a version such as 27.2. Use up to three numeric components.": "27.2 같은 버전을 입력하세요. 숫자 구성 요소는 최대 세 개까지 가능합니다.",
+  "Enter a build such as 24C101: two digits, a letter, then the build number.": "24C101 같은 빌드를 입력하세요. 두 자리 숫자, 문자, 빌드 번호 순입니다."
 }

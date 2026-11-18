@@ -518,5 +518,21 @@
   "Don't Ask Again": "今後表示しない",
   "Cannot reach the device console. Open LocalDevVPN, wait for it to connect, then try again.": "デバイスコンソールに接続できません。LocalDevVPN を開いて接続を待ち、もう一度お試しください。",
   "If this stays here, open LocalDevVPN and wait for it to finish connecting.": "ここから進まない場合は、LocalDevVPN を開いて接続が完了するまで待ってください。",
-  "Disabling may show a Wi-Fi entry instead of WLAN. Restart to apply.": "無効にするとWi-Fi表記や一部の通信設定が変わる場合があります。反映するには再起動してください。"
+  "Disabling may show a Wi-Fi entry instead of WLAN. Restart to apply.": "無効にするとWi-Fi表記や一部の通信設定が変わる場合があります。反映するには再起動してください。",
+  "System Version": "システムバージョン",
+  "Version Spoof": "バージョンの偽装",
+  "Custom Version": "カスタムバージョン",
+  "Version": "バージョン",
+  "Build": "ビルド",
+  "Use Current Values": "現在の値を使用",
+  "Staged": "ステージ済み",
+  "Current": "現在",
+  "MobileGestalt Version": "MobileGestalt のバージョン",
+  "Restart the device before other processes report the spoofed version.": "他のプロセスが偽装後のバージョンを報告するには、デバイスを再起動してください。",
+  "Enter a version, a build, or both before applying.": "適用する前にバージョンかビルド、またはその両方を入力してください。",
+  "Enter a marketing version such as 27.2 and a build such as 24C101. An empty field keeps its current value.": "27.2 のようなバージョンと 24C101 のようなビルドを入力します。空欄の項目は現在の値を保持します。",
+  "A spoofed pair that no build ever reported can confuse OTA updates, App Store compatibility checks and system services.": "実在しない組み合わせを偽装すると、OTA アップデート、App Store の互換性判定、システムサービスに影響する可能性があります。",
+  "libMobileGestalt answers version queries from these keys. A restart is required before other processes read the new values.": "libMobileGestalt はこれらのキーからバージョンを返します。他のプロセスが新しい値を読むには再起動が必要です。",
+  "Enter a version such as 27.2. Use up to three numeric components.": "27.2 のようなバージョンを入力してください。数字は最大 3 区切りです。",
+  "Enter a build such as 24C101: two digits, a letter, then the build number.": "24C101 のようなビルドを入力してください。2 桁の数字、英字、ビルド番号の順です。"
 }

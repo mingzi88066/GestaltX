@@ -518,5 +518,21 @@
   "Don't Ask Again": "Không hỏi lại",
   "Cannot reach the device console. Open LocalDevVPN, wait for it to connect, then try again.": "Không thể kết nối với bảng điều khiển thiết bị. Hãy mở LocalDevVPN, đợi kết nối rồi thử lại.",
   "If this stays here, open LocalDevVPN and wait for it to finish connecting.": "Nếu màn hình đứng ở đây, hãy mở LocalDevVPN và đợi kết nối hoàn tất.",
-  "Disabling may show a Wi-Fi entry instead of WLAN. Restart to apply.": "Tắt có thể đổi tên hiển thị thành Wi-Fi và thay đổi một số tùy chọn mạng. Khởi động lại để áp dụng."
+  "Disabling may show a Wi-Fi entry instead of WLAN. Restart to apply.": "Tắt có thể đổi tên hiển thị thành Wi-Fi và thay đổi một số tùy chọn mạng. Khởi động lại để áp dụng.",
+  "System Version": "Phiên bản hệ thống",
+  "Version Spoof": "Giả phiên bản",
+  "Custom Version": "Phiên bản tùy chỉnh",
+  "Version": "Phiên bản",
+  "Build": "Bản dựng",
+  "Use Current Values": "Dùng giá trị hiện tại",
+  "Staged": "Đã chuẩn bị",
+  "Current": "Hiện tại",
+  "MobileGestalt Version": "Phiên bản MobileGestalt",
+  "Restart the device before other processes report the spoofed version.": "Khởi động lại thiết bị để các tiến trình khác báo phiên bản đã giả.",
+  "Enter a version, a build, or both before applying.": "Nhập phiên bản, bản dựng hoặc cả hai trước khi áp dụng.",
+  "Enter a marketing version such as 27.2 and a build such as 24C101. An empty field keeps its current value.": "Nhập phiên bản như 27.2 và bản dựng như 24C101. Trường để trống sẽ giữ giá trị hiện tại.",
+  "A spoofed pair that no build ever reported can confuse OTA updates, App Store compatibility checks and system services.": "Một cặp phiên bản và bản dựng chưa từng phát hành có thể ảnh hưởng đến cập nhật OTA, kiểm tra tương thích App Store và các dịch vụ hệ thống.",
+  "libMobileGestalt answers version queries from these keys. A restart is required before other processes read the new values.": "libMobileGestalt trả lời truy vấn phiên bản từ các khóa này. Cần khởi động lại thiết bị trước khi tiến trình khác đọc giá trị mới.",
+  "Enter a version such as 27.2. Use up to three numeric components.": "Nhập phiên bản như 27.2. Cho phép tối đa ba thành phần số.",
+  "Enter a build such as 24C101: two digits, a letter, then the build number.": "Nhập bản dựng như 24C101: hai chữ số, một chữ cái, rồi số bản dựng."
 }

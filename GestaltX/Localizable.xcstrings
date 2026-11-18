@@ -36415,13 +36415,55 @@
             "value": "系统版本"
           }
         },
-        "zh-Hant-TW": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Versión del sistema"
+          }
+        },
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "نسخه سیستم"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "システムバージョン"
+          }
+        },
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "시스템 버전"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Версия системы"
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Sistem sürümü"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Phiên bản hệ thống"
+          }
+        },
+        "zh-Hant-HK": {
           "stringUnit": {
             "state": "translated",
             "value": "系統版本"
           }
         },
-        "zh-Hant-HK": {
+        "zh-Hant-TW": {
           "stringUnit": {
             "state": "translated",
             "value": "系統版本"
@@ -36443,13 +36485,55 @@
             "value": "版本伪装"
           }
         },
-        "zh-Hant-TW": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Suplantación de versión"
+          }
+        },
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "جعل نسخه"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "バージョンの偽装"
+          }
+        },
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "버전 위장"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Подмена версии"
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Sürüm taklidi"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Giả phiên bản"
+          }
+        },
+        "zh-Hant-HK": {
           "stringUnit": {
             "state": "translated",
             "value": "版本偽裝"
           }
         },
-        "zh-Hant-HK": {
+        "zh-Hant-TW": {
           "stringUnit": {
             "state": "translated",
             "value": "版本偽裝"
@@ -36471,13 +36555,55 @@
             "value": "自定义版本"
           }
         },
-        "zh-Hant-TW": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Versión personalizada"
+          }
+        },
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "نسخه سفارشی"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "カスタムバージョン"
+          }
+        },
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "사용자 지정 버전"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Своя версия"
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Özel sürüm"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Phiên bản tùy chỉnh"
+          }
+        },
+        "zh-Hant-HK": {
           "stringUnit": {
             "state": "translated",
             "value": "自訂版本"
           }
         },
-        "zh-Hant-HK": {
+        "zh-Hant-TW": {
           "stringUnit": {
             "state": "translated",
             "value": "自訂版本"
@@ -36499,13 +36625,55 @@
             "value": "版本号"
           }
         },
-        "zh-Hant-TW": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Versión"
+          }
+        },
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "نسخه"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "バージョン"
+          }
+        },
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "버전"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Версия"
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Sürüm"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Phiên bản"
+          }
+        },
+        "zh-Hant-HK": {
           "stringUnit": {
             "state": "translated",
             "value": "版本號"
           }
         },
-        "zh-Hant-HK": {
+        "zh-Hant-TW": {
           "stringUnit": {
             "state": "translated",
             "value": "版本號"
@@ -36527,13 +36695,55 @@
             "value": "构建号"
           }
         },
-        "zh-Hant-TW": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Compilación"
+          }
+        },
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ساخت"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ビルド"
+          }
+        },
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "빌드"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Сборка"
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Derleme"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Bản dựng"
+          }
+        },
+        "zh-Hant-HK": {
           "stringUnit": {
             "state": "translated",
             "value": "構建號"
           }
         },
-        "zh-Hant-HK": {
+        "zh-Hant-TW": {
           "stringUnit": {
             "state": "translated",
             "value": "構建號"
@@ -36555,13 +36765,55 @@
             "value": "使用当前值"
           }
         },
-        "zh-Hant-TW": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Usar valores actuales"
+          }
+        },
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "استفاده از مقادیر فعلی"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "現在の値を使用"
+          }
+        },
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "현재 값 사용"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Использовать текущие значения"
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Geçerli değerleri kullan"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Dùng giá trị hiện tại"
+          }
+        },
+        "zh-Hant-HK": {
           "stringUnit": {
             "state": "translated",
             "value": "使用目前值"
           }
         },
-        "zh-Hant-HK": {
+        "zh-Hant-TW": {
           "stringUnit": {
             "state": "translated",
             "value": "使用目前值"
@@ -36583,10 +36835,46 @@
             "value": "已暂存"
           }
         },
-        "zh-Hant-TW": {
+        "es": {
           "stringUnit": {
             "state": "translated",
-            "value": "已暫存"
+            "value": "Preparado"
+          }
+        },
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "آماده شد"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ステージ済み"
+          }
+        },
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "준비됨"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Подготовлено"
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Hazırlandı"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Đã chuẩn bị"
           }
         },
         "zh-Hant-HK": {
@@ -36594,33 +36882,11 @@
             "state": "translated",
             "value": "已暫存"
           }
-        }
-      }
-    },
-    "Nothing staged": {
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Nothing staged"
-          }
-        },
-        "zh-Hans": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "尚未暂存任何更改"
-          }
         },
         "zh-Hant-TW": {
           "stringUnit": {
             "state": "translated",
-            "value": "尚未暫存任何變更"
-          }
-        },
-        "zh-Hant-HK": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "尚未暫存任何變更"
+            "value": "已暫存"
           }
         }
       }
@@ -36639,10 +36905,46 @@
             "value": "当前"
           }
         },
-        "zh-Hant-TW": {
+        "es": {
           "stringUnit": {
             "state": "translated",
-            "value": "目前"
+            "value": "Actual"
+          }
+        },
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "فعلی"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "現在"
+          }
+        },
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "현재"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Текущая"
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Geçerli"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Hiện tại"
           }
         },
         "zh-Hant-HK": {
@@ -36650,173 +36952,81 @@
             "state": "translated",
             "value": "目前"
           }
+        },
+        "zh-Hant-TW": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "目前"
+          }
         }
       }
     },
-    "Preset": {
+    "MobileGestalt Version": {
       "localizations": {
         "en": {
           "stringUnit": {
             "state": "translated",
-            "value": "Preset"
+            "value": "MobileGestalt Version"
           }
         },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
-            "value": "预设"
+            "value": "MobileGestalt 版本"
           }
         },
-        "zh-Hant-TW": {
+        "es": {
           "stringUnit": {
             "state": "translated",
-            "value": "預設"
+            "value": "Versión de MobileGestalt"
           }
         },
-        "zh-Hant-HK": {
+        "fa": {
           "stringUnit": {
             "state": "translated",
-            "value": "預設"
-          }
-        }
-      }
-    },
-    "Check the Values": {
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Check the Values"
+            "value": "نسخه MobileGestalt"
           }
         },
-        "zh-Hans": {
+        "ja": {
           "stringUnit": {
             "state": "translated",
-            "value": "检查填写内容"
+            "value": "MobileGestalt のバージョン"
           }
         },
-        "zh-Hant-TW": {
+        "ko": {
           "stringUnit": {
             "state": "translated",
-            "value": "檢查填寫內容"
+            "value": "MobileGestalt 버전"
           }
         },
-        "zh-Hant-HK": {
+        "ru": {
           "stringUnit": {
             "state": "translated",
-            "value": "檢查填寫內容"
-          }
-        }
-      }
-    },
-    "The change is applied with Apply Changes, not immediately.": {
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "The change is applied with Apply Changes, not immediately."
+            "value": "Версия MobileGestalt"
           }
         },
-        "zh-Hans": {
+        "tr": {
           "stringUnit": {
             "state": "translated",
-            "value": "此更改在“应用更改”时写入，不会立即生效。"
+            "value": "MobileGestalt sürümü"
           }
         },
-        "zh-Hant-TW": {
+        "vi": {
           "stringUnit": {
             "state": "translated",
-            "value": "此變更在「套用變更」時寫入，不會立即生效。"
+            "value": "Phiên bản MobileGestalt"
           }
         },
         "zh-Hant-HK": {
           "stringUnit": {
             "state": "translated",
-            "value": "此變更在「套用變更」時寫入，不會立即生效。"
-          }
-        }
-      }
-    },
-    "Enter a marketing version such as 27.2 and a build such as 24C101. An empty field keeps its current value.": {
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Enter a marketing version such as 27.2 and a build such as 24C101. An empty field keeps its current value."
-          }
-        },
-        "zh-Hans": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "输入形如 27.2 的版本号与形如 24C101 的构建号；留空的字段保持当前值。"
+            "value": "MobileGestalt 版本"
           }
         },
         "zh-Hant-TW": {
           "stringUnit": {
             "state": "translated",
-            "value": "輸入形如 27.2 的版本號與形如 24C101 的構建號；留白的欄位保持目前值。"
-          }
-        },
-        "zh-Hant-HK": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "輸入形如 27.2 的版本號與形如 24C101 的構建號；留白的欄位保持目前值。"
-          }
-        }
-      }
-    },
-    "A spoofed pair that no build ever reported can confuse OTA updates, App Store compatibility checks and system services.": {
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "A spoofed pair that no build ever reported can confuse OTA updates, App Store compatibility checks and system services."
-          }
-        },
-        "zh-Hans": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "若这组版本号与构建号从未真实发布过，可能影响 OTA 更新、App Store 兼容性判断与系统服务。"
-          }
-        },
-        "zh-Hant-TW": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "若這組版本號與構建號從未真實發布過，可能影響 OTA 更新、App Store 相容性判斷與系統服務。"
-          }
-        },
-        "zh-Hant-HK": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "若這組版本號與構建號從未真實發布過，可能影響 OTA 更新、App Store 相容性判斷與系統服務。"
-          }
-        }
-      }
-    },
-    "libMobileGestalt answers version queries from these keys. A restart is required before other processes read the new values.": {
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "libMobileGestalt answers version queries from these keys. A restart is required before other processes read the new values."
-          }
-        },
-        "zh-Hans": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "libMobileGestalt 通过上述键回答版本查询；需要重启设备，其他进程才会读到新值。"
-          }
-        },
-        "zh-Hant-TW": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "libMobileGestalt 透過上述鍵回答版本查詢；需要重新啟動裝置，其他程序才會讀到新值。"
-          }
-        },
-        "zh-Hant-HK": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "libMobileGestalt 透過上述鍵回答版本查詢；需要重新啟動裝置，其他程序才會讀到新值。"
+            "value": "MobileGestalt 版本"
           }
         }
       }
@@ -36835,13 +37045,55 @@
             "value": "重启设备后，其他进程才会报告伪装后的版本号。"
           }
         },
-        "zh-Hant-TW": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Reinicia el dispositivo para que otros procesos informen la versión suplantada."
+          }
+        },
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "برای اینکه فرایندهای دیگر نسخه جعل‌شده را گزارش کنند، دستگاه را دوباره راه‌اندازی کنید."
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "他のプロセスが偽装後のバージョンを報告するには、デバイスを再起動してください。"
+          }
+        },
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "다른 프로세스가 위장된 버전을 보고하려면 기기를 재시작하세요."
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Перезагрузите устройство, чтобы другие процессы сообщали подменённую версию."
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Diğer süreçlerin taklit edilen sürümü bildirmesi için cihazı yeniden başlatın."
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Khởi động lại thiết bị để các tiến trình khác báo phiên bản đã giả."
+          }
+        },
+        "zh-Hant-HK": {
           "stringUnit": {
             "state": "translated",
             "value": "重新啟動裝置後，其他程序才會回報偽裝後的版本號。"
           }
         },
-        "zh-Hant-HK": {
+        "zh-Hant-TW": {
           "stringUnit": {
             "state": "translated",
             "value": "重新啟動裝置後，其他程序才會回報偽裝後的版本號。"
@@ -36860,7 +37112,55 @@
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
-            "value": "应用前请先填写版本号、构建号，或两者都填。"
+            "value": "应用前请填写版本号、构建号，或两者都填。"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Introduce una versión, una compilación o ambas antes de aplicar."
+          }
+        },
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "پیش از اعمال، نسخه، ساخت یا هر دو را وارد کنید."
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "適用する前にバージョンかビルド、またはその両方を入力してください。"
+          }
+        },
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "적용하기 전에 버전, 빌드 또는 둘 다 입력하세요."
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Введите версию, сборку или и то и другое перед применением."
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Uygulamadan önce bir sürüm, bir derleme veya ikisini birden girin."
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nhập phiên bản, bản dựng hoặc cả hai trước khi áp dụng."
+          }
+        },
+        "zh-Hant-HK": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "套用前請先填寫版本號、構建號，或兩者都填。"
           }
         },
         "zh-Hant-TW": {
@@ -36868,11 +37168,215 @@
             "state": "translated",
             "value": "套用前請先填寫版本號、構建號，或兩者都填。"
           }
+        }
+      }
+    },
+    "Enter a marketing version such as 27.2 and a build such as 24C101. An empty field keeps its current value.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Enter a marketing version such as 27.2 and a build such as 24C101. An empty field keeps its current value."
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "输入形如 27.2 的版本号与形如 24C101 的构建号；留空的字段保持当前值。"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Introduce una versión como 27.2 y una compilación como 24C101. Un campo vacío conserva su valor actual."
+          }
+        },
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "نسخه‌ای مانند 27.2 و ساختنی مانند 24C101 وارد کنید. فیلد خالی مقدار فعلی را نگه می‌دارد."
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "27.2 のようなバージョンと 24C101 のようなビルドを入力します。空欄の項目は現在の値を保持します。"
+          }
+        },
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "27.2 같은 버전과 24C101 같은 빌드를 입력하세요. 비워 둔 항목은 현재 값을 유지합니다."
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Введите версию, например 27.2, и сборку, например 24C101. Пустое поле сохраняет текущее значение."
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "27.2 gibi bir sürüm ve 24C101 gibi bir derleme girin. Boş bırakılan alan geçerli değerini korur."
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nhập phiên bản như 27.2 và bản dựng như 24C101. Trường để trống sẽ giữ giá trị hiện tại."
+          }
         },
         "zh-Hant-HK": {
           "stringUnit": {
             "state": "translated",
-            "value": "套用前請先填寫版本號、構建號，或兩者都填。"
+            "value": "輸入形如 27.2 的版本號與形如 24C101 的構建號；留空的欄位保持目前值。"
+          }
+        },
+        "zh-Hant-TW": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "輸入形如 27.2 的版本號與形如 24C101 的構建號；留白的欄位保持目前值。"
+          }
+        }
+      }
+    },
+    "A spoofed pair that no build ever reported can confuse OTA updates, App Store compatibility checks and system services.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "A spoofed pair that no build ever reported can confuse OTA updates, App Store compatibility checks and system services."
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "若这组版本号与构建号从未在任何正式版本中出现过，可能影响 OTA 更新、App Store 兼容性判断和系统服务。"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Un par suplantado que ninguna compilación publicó puede confundir las actualizaciones OTA, las comprobaciones de compatibilidad de App Store y los servicios del sistema."
+          }
+        },
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "جفت جعلی‌ای که هیچ ساختنی آن را منتشر نکرده می‌تواند به‌روزرسانی OTA، بررسی سازگاری App Store و سرویس‌های سیستم آسیب بزند."
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "実在しない組み合わせを偽装すると、OTA アップデート、App Store の互換性判定、システムサービスに影響する可能性があります。"
+          }
+        },
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "실제로 배포된 적 없는 조합을 위장하면 OTA 업데이트, App Store 호환성 확인 및 시스템 서비스에 문제가 생길 수 있습니다."
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Подменённая пара, которой не было ни в одной сборке, может нарушить обновления OTA, проверки совместимости App Store и системные службы."
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Hiçbir derlemede yayınlanmamış bir sürüm ve derleme çifti OTA güncellemelerini, App Store uyumluluk denetimlerini ve sistem servislerini etkileyebilir."
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Một cặp phiên bản và bản dựng chưa từng phát hành có thể ảnh hưởng đến cập nhật OTA, kiểm tra tương thích App Store và các dịch vụ hệ thống."
+          }
+        },
+        "zh-Hant-HK": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "若這組版本號與構建號從未在任何正式版本中出現過，可能影響 OTA 更新、App Store 相容性判斷與系統服務。"
+          }
+        },
+        "zh-Hant-TW": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "若這組版本號與構建號從未在任何正式版本中出現過，可能影響 OTA 更新、App Store 相容性判斷與系統服務。"
+          }
+        }
+      }
+    },
+    "libMobileGestalt answers version queries from these keys. A restart is required before other processes read the new values.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "libMobileGestalt answers version queries from these keys. A restart is required before other processes read the new values."
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "libMobileGestalt 用这些键回答版本查询；需要重启设备，其他进程才能读到新值。"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "libMobileGestalt responde a las consultas de versión con estas claves. Se requiere reiniciar el dispositivo antes de que otros procesos lean los valores nuevos."
+          }
+        },
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "libMobileGestalt به پرس‌وجوهای نسخه از این کلیدها پاسخ می‌دهد. برای خواندن مقادیر جدید توسط فرایندهای دیگر، راه‌اندازی مجدد لازم است."
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "libMobileGestalt はこれらのキーからバージョンを返します。他のプロセスが新しい値を読むには再起動が必要です。"
+          }
+        },
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "libMobileGestalt는 이 키로 버전을 응답합니다. 다른 프로세스가 새 값을 읽으려면 재시작이 필요합니다."
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "libMobileGestalt отвечает на запросы версии по этим ключам. Чтобы другие процессы увидели новые значения, нужна перезагрузка."
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "libMobileGestalt sürüm sorgularını bu anahtarlardan yanıtlar. Diğer süreçlerin yeni değerleri okuması için yeniden başlatma gerekir."
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "libMobileGestalt trả lời truy vấn phiên bản từ các khóa này. Cần khởi động lại thiết bị trước khi tiến trình khác đọc giá trị mới."
+          }
+        },
+        "zh-Hant-HK": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "libMobileGestalt 用這些鍵回答版本查詢；需要重新啟動裝置，其他程序才能讀到新值。"
+          }
+        },
+        "zh-Hant-TW": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "libMobileGestalt 用這些鍵回答版本查詢；需要重新啟動裝置，其他程序才能讀到新值。"
           }
         }
       }
@@ -36891,13 +37395,55 @@
             "value": "请输入形如 27.2 的版本号，最多三段数字。"
           }
         },
-        "zh-Hant-TW": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Introduce una versión como 27.2. Se permiten hasta tres componentes numéricos."
+          }
+        },
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "نسخه‌ای مانند 27.2 وارد کنید. حداکثر سه بخش عددی مجاز است."
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "27.2 のようなバージョンを入力してください。数字は最大 3 区切りです。"
+          }
+        },
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "27.2 같은 버전을 입력하세요. 숫자 구성 요소는 최대 세 개까지 가능합니다."
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Введите версию, например 27.2. Допускается до трёх числовых компонентов."
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "27.2 gibi bir sürüm girin. En fazla üç sayısal bileşen kullanılabilir."
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nhập phiên bản như 27.2. Cho phép tối đa ba thành phần số."
+          }
+        },
+        "zh-Hant-HK": {
           "stringUnit": {
             "state": "translated",
             "value": "請輸入形如 27.2 的版本號，最多三段數字。"
           }
         },
-        "zh-Hant-HK": {
+        "zh-Hant-TW": {
           "stringUnit": {
             "state": "translated",
             "value": "請輸入形如 27.2 的版本號，最多三段數字。"
@@ -36919,10 +37465,46 @@
             "value": "请输入形如 24C101 的构建号：两位数字、一个字母，再接构建序号。"
           }
         },
-        "zh-Hant-TW": {
+        "es": {
           "stringUnit": {
             "state": "translated",
-            "value": "請輸入形如 24C101 的構建號：兩位數字、一個字母，再接構建序號。"
+            "value": "Introduce una compilación como 24C101: dos dígitos, una letra y el número de compilación."
+          }
+        },
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ساختنی مانند 24C101 وارد کنید: دو رقم، یک حرف و سپس شماره ساخت."
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "24C101 のようなビルドを入力してください。2 桁の数字、英字、ビルド番号の順です。"
+          }
+        },
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "24C101 같은 빌드를 입력하세요. 두 자리 숫자, 문자, 빌드 번호 순입니다."
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Введите сборку, например 24C101: две цифры, буква, затем номер сборки."
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "24C101 gibi bir derleme girin: iki rakam, bir harf ve derleme numarası."
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nhập bản dựng như 24C101: hai chữ số, một chữ cái, rồi số bản dựng."
           }
         },
         "zh-Hant-HK": {
@@ -36930,61 +37512,11 @@
             "state": "translated",
             "value": "請輸入形如 24C101 的構建號：兩位數字、一個字母，再接構建序號。"
           }
-        }
-      }
-    },
-    "MobileGestalt": {
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "MobileGestalt"
-          }
-        },
-        "zh-Hans": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "MobileGestalt"
-          }
         },
         "zh-Hant-TW": {
           "stringUnit": {
             "state": "translated",
-            "value": "MobileGestalt"
-          }
-        },
-        "zh-Hant-HK": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "MobileGestalt"
-          }
-        }
-      }
-    },
-    "MobileGestalt Version": {
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "MobileGestalt Version"
-          }
-        },
-        "zh-Hans": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "MobileGestalt 版本"
-          }
-        },
-        "zh-Hant-TW": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "MobileGestalt 版本"
-          }
-        },
-        "zh-Hant-HK": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "MobileGestalt 版本"
+            "value": "請輸入形如 24C101 的構建號：兩位數字、一個字母，再接構建序號。"
           }
         }
       }

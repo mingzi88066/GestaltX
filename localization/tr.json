@@ -518,5 +518,21 @@
   "Don't Ask Again": "Bir Daha Sorma",
   "Cannot reach the device console. Open LocalDevVPN, wait for it to connect, then try again.": "Cihaz konsoluna ulaşılamıyor. LocalDevVPN'i açın, bağlanmasını bekleyin, sonra tekrar deneyin.",
   "If this stays here, open LocalDevVPN and wait for it to finish connecting.": "Bu görünüm burada kalırsa LocalDevVPN'i açın ve bağlanmasının bitmesini bekleyin.",
-  "Disabling may show a Wi-Fi entry instead of WLAN. Restart to apply.": "Bunu devre dışı bırakmak WLAN yerine Wi-Fi ibaresini gösterebilir ve bazı ağ seçeneklerini değiştirebilir. Uygulamak için cihazı yeniden başlatın."
+  "Disabling may show a Wi-Fi entry instead of WLAN. Restart to apply.": "Bunu devre dışı bırakmak WLAN yerine Wi-Fi ibaresini gösterebilir ve bazı ağ seçeneklerini değiştirebilir. Uygulamak için cihazı yeniden başlatın.",
+  "System Version": "Sistem sürümü",
+  "Version Spoof": "Sürüm taklidi",
+  "Custom Version": "Özel sürüm",
+  "Version": "Sürüm",
+  "Build": "Derleme",
+  "Use Current Values": "Geçerli değerleri kullan",
+  "Staged": "Hazırlandı",
+  "Current": "Geçerli",
+  "MobileGestalt Version": "MobileGestalt sürümü",
+  "Restart the device before other processes report the spoofed version.": "Diğer süreçlerin taklit edilen sürümü bildirmesi için cihazı yeniden başlatın.",
+  "Enter a version, a build, or both before applying.": "Uygulamadan önce bir sürüm, bir derleme veya ikisini birden girin.",
+  "Enter a marketing version such as 27.2 and a build such as 24C101. An empty field keeps its current value.": "27.2 gibi bir sürüm ve 24C101 gibi bir derleme girin. Boş bırakılan alan geçerli değerini korur.",
+  "A spoofed pair that no build ever reported can confuse OTA updates, App Store compatibility checks and system services.": "Hiçbir derlemede yayınlanmamış bir sürüm ve derleme çifti OTA güncellemelerini, App Store uyumluluk denetimlerini ve sistem servislerini etkileyebilir.",
+  "libMobileGestalt answers version queries from these keys. A restart is required before other processes read the new values.": "libMobileGestalt sürüm sorgularını bu anahtarlardan yanıtlar. Diğer süreçlerin yeni değerleri okuması için yeniden başlatma gerekir.",
+  "Enter a version such as 27.2. Use up to three numeric components.": "27.2 gibi bir sürüm girin. En fazla üç sayısal bileşen kullanılabilir.",
+  "Enter a build such as 24C101: two digits, a letter, then the build number.": "24C101 gibi bir derleme girin: iki rakam, bir harf ve derleme numarası."
 }

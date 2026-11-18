@@ -522,6 +522,22 @@ Maybe Later	以后再说
 Don't Ask Again	不再提醒
 Cannot reach the device console. Open LocalDevVPN, wait for it to connect, then try again.	无法连接设备控制台。请打开 LocalDevVPN，等它连接成功后重试。
 If this stays here, open LocalDevVPN and wait for it to finish connecting.	如果一直停在这里，请打开 LocalDevVPN，等它连接完成。
+System Version	系统版本
+Version Spoof	版本伪装
+Custom Version	自定义版本
+Version	版本号
+Build	构建号
+Use Current Values	使用当前值
+Staged	已暂存
+Current	当前
+MobileGestalt Version	MobileGestalt 版本
+Restart the device before other processes report the spoofed version.	重启设备后，其他进程才会报告伪装后的版本号。
+Enter a version, a build, or both before applying.	应用前请填写版本号、构建号，或两者都填。
+Enter a marketing version such as 27.2 and a build such as 24C101. An empty field keeps its current value.	输入形如 27.2 的版本号与形如 24C101 的构建号；留空的字段保持当前值。
+A spoofed pair that no build ever reported can confuse OTA updates, App Store compatibility checks and system services.	若这组版本号与构建号从未在任何正式版本中出现过，可能影响 OTA 更新、App Store 兼容性判断和系统服务。
+libMobileGestalt answers version queries from these keys. A restart is required before other processes read the new values.	libMobileGestalt 用这些键回答版本查询；需要重启设备，其他进程才能读到新值。
+Enter a version such as 27.2. Use up to three numeric components.	请输入形如 27.2 的版本号，最多三段数字。
+Enter a build such as 24C101: two digits, a letter, then the build number.	请输入形如 24C101 的构建号：两位数字、一个字母，再接构建序号。
 '''
 entries = {}
 for line in TRANSLATIONS.strip().splitlines():

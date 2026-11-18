@@ -518,5 +518,21 @@
   "Don't Ask Again": "Больше не спрашивать",
   "Cannot reach the device console. Open LocalDevVPN, wait for it to connect, then try again.": "Не удаётся подключиться к консоли устройства. Откройте LocalDevVPN, дождитесь подключения и повторите попытку.",
   "If this stays here, open LocalDevVPN and wait for it to finish connecting.": "Если экран не меняется, откройте LocalDevVPN и дождитесь завершения подключения.",
-  "Disabling may show a Wi-Fi entry instead of WLAN. Restart to apply.": "Отключение может изменить название на Wi-Fi и повлиять на некоторые параметры сети. Для применения перезагрузите устройство."
+  "Disabling may show a Wi-Fi entry instead of WLAN. Restart to apply.": "Отключение может изменить название на Wi-Fi и повлиять на некоторые параметры сети. Для применения перезагрузите устройство.",
+  "System Version": "Версия системы",
+  "Version Spoof": "Подмена версии",
+  "Custom Version": "Своя версия",
+  "Version": "Версия",
+  "Build": "Сборка",
+  "Use Current Values": "Использовать текущие значения",
+  "Staged": "Подготовлено",
+  "Current": "Текущая",
+  "MobileGestalt Version": "Версия MobileGestalt",
+  "Restart the device before other processes report the spoofed version.": "Перезагрузите устройство, чтобы другие процессы сообщали подменённую версию.",
+  "Enter a version, a build, or both before applying.": "Введите версию, сборку или и то и другое перед применением.",
+  "Enter a marketing version such as 27.2 and a build such as 24C101. An empty field keeps its current value.": "Введите версию, например 27.2, и сборку, например 24C101. Пустое поле сохраняет текущее значение.",
+  "A spoofed pair that no build ever reported can confuse OTA updates, App Store compatibility checks and system services.": "Подменённая пара, которой не было ни в одной сборке, может нарушить обновления OTA, проверки совместимости App Store и системные службы.",
+  "libMobileGestalt answers version queries from these keys. A restart is required before other processes read the new values.": "libMobileGestalt отвечает на запросы версии по этим ключам. Чтобы другие процессы увидели новые значения, нужна перезагрузка.",
+  "Enter a version such as 27.2. Use up to three numeric components.": "Введите версию, например 27.2. Допускается до трёх числовых компонентов.",
+  "Enter a build such as 24C101: two digits, a letter, then the build number.": "Введите сборку, например 24C101: две цифры, буква, затем номер сборки."
 }
