@@ -2,6 +2,12 @@
 
 [English](CHANGELOG.md) | 简体中文
 
+## [未发布]
+
+### 新增
+
+- 系统版本：可暂存自定义版本号与构建号，或还原当初记录的原始值。该伪装通过常规的对比、备份与写入校验流程改写 MobileGestalt 版本键（`qNNddlUK+B/YlooNoymwgA`、`mZfUC7qo4pURNhyMHZ62RQ`、`ToLFRidm+eJGWnpw6W4Wwg`）。
+
 ## [1.1.1] - 2026-11-14
 
 构建号 `11140102`。

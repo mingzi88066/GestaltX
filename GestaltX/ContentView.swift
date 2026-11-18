@@ -364,6 +364,10 @@ struct ContentView: View {
                 }
             }
             Section("MobileGestalt") {
+                NavigationLink { SystemVersionView() } label: {
+                    Label(L("System Version"), systemImage: "number.square")
+                }
+                .disabled(!model.hasDocument || model.isBusy)
                 ForEach(CapabilityCategory.allCases) { category in
                     NavigationLink { CategoryView(category: category) } label: {
                         Label(L(category.rawValue), systemImage: category.symbol)
@@ -772,6 +776,10 @@ struct ChangeReviewView: View {
                     valueRow("After", value: model.preview?.extra[key])
                     if let capability = Capability.all.first(where: { $0.keys.contains(key) }) {
                         Text(L(capability.effectHint)).font(.caption).foregroundStyle(.secondary)
+                    }
+                    if SystemVersionKey.all.contains(key) {
+                        Text(L("Restart the device before other processes report the spoofed version."))
+                            .font(.caption).foregroundStyle(.secondary)
                     }
                 }
             }

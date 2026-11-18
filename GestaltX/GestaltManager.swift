@@ -33,6 +33,7 @@ final class GestaltManager: ObservableObject {
     @Published var subtype = 0
     @Published private(set) var wapiChoice: WAPIChoice = .keep
     @Published private(set) var cacheOptionChoice: CacheOptionChoice = .keep
+    @Published var versionSpoof = SystemVersionSpoof()
     private let files: GestaltFileStore
     private var exploitLogObserver: NSObjectProtocol?
 
@@ -123,6 +124,7 @@ final class GestaltManager: ObservableObject {
         doc.applyRegion(salesRegion: RegionPreset.all.first { $0.id == regionID },
                         regionCode: RegionPreset.all.first { $0.id == regionCodeID })
         doc.applyModel(ModelPreset.all.first { $0.id == modelID })
+        versionSpoof.apply(to: &doc, restoringFrom: snapshot)
         return doc
     }
 
@@ -137,6 +139,7 @@ final class GestaltManager: ObservableObject {
         choices = [:]; regionID = "keep"; regionCodeID = "keep"; modelID = "keep"; changesName = false; subtype = 0
         cacheOptionChoice = .keep
         wapiChoice = .keep
+        versionSpoof = SystemVersionSpoof()
         modelName = loaded.document.artwork["ArtworkDeviceProductDescription"] as? String ?? ""
     }
     func clearStaged() {
@@ -204,6 +207,49 @@ final class GestaltManager: ObservableObject {
                (try? DeviceCacheOptions.wapi(in: before.document)) != value { try working?.setWAPI(value) }
             cacheOptionChoice = .keep
             log("[restore-option] " + L("Original values restored."))
+            await reloadBackups()
+        } catch { failed(error); await reloadBackups() }
+    }
+
+    // MARK: - System version spoof
+
+    var versionSpoofError: String? { versionSpoof.validationError }
+    var storedSystemVersion: String { working?.extra[SystemVersionKey.productVersion] as? String ?? "" }
+    var storedSystemBuild: String { working?.extra[SystemVersionKey.buildVersion] as? String ?? "" }
+
+    var canRestoreSystemVersion: Bool {
+        guard !isBusy, let snapshot, let working else { return false }
+        if versionSpoof.choice != .keep { return true }
+        return SystemVersionKey.all.contains { key in
+            switch (snapshot.originalValue(for: key), working.extra[key]) {
+            case (nil, nil): false
+            case (let a?, let b?): !GestaltDocument.valuesEqual(a, b)
+            default: true
+            }
+        }
+    }
+
+    func restoreSystemVersion() async {
+        guard !isBusy, let before = snapshot, let pending = working else { return }
+        isBusy = true
+        defer { isBusy = false }
+        do {
+            var restored = before.document
+            for key in SystemVersionKey.all { restored.set(before.originalValue(for: key), for: key) }
+            let result: DocumentSnapshot
+            if restored.matches(before.document) {
+                result = before
+            } else {
+                logChanges(from: before.document, to: restored, prefix: "[restore-version] ")
+                result = try await files.commit(restored, expected: before)
+                needsRespring = result.source == .device
+                message = L(result.source == .device
+                            ? "Original values restored." : "Local changes saved. Export the plist to keep a copy.")
+            }
+            snapshot = result
+            working = before.rebasingPendingEdits(pending, onto: result.document, excluding: Set(SystemVersionKey.all))
+            versionSpoof = SystemVersionSpoof()
+            log("[restore-version] " + L("System Version") + ": " + L("Original values restored."))
             await reloadBackups()
         } catch { failed(error); await reloadBackups() }
     }
@@ -486,6 +532,7 @@ final class GestaltManager: ObservableObject {
         resetLayoutPresets(overriddenBy: changedKeys)
         if changedKeys.contains(GestaltKeys.modelNumber) { modelID = "keep" }
         if !changedKeys.isDisjoint(with: [GestaltKeys.artwork, "Z/dqyWS6OZTRy10UcmUAhw", "bbtR9jQx50Fv5Af/affNtA"]) { changesName = false }
+        if !changedKeys.isDisjoint(with: SystemVersionKey.all) { versionSpoof = SystemVersionSpoof() }
     }
     func removeField(_ key: String) {
         working?.set(nil, for: key)
@@ -494,6 +541,7 @@ final class GestaltManager: ObservableObject {
         resetLayoutPresets(overriddenBy: [key])
         if key == GestaltKeys.modelNumber { modelID = "keep" }
         if [GestaltKeys.artwork, "Z/dqyWS6OZTRy10UcmUAhw", "bbtR9jQx50Fv5Af/affNtA"].contains(key) { changesName = false }
+        if SystemVersionKey.all.contains(key) { versionSpoof = SystemVersionSpoof() }
     }
 
     private func resetLayoutPresets(overriddenBy keys: Set<String>) {
@@ -513,6 +561,10 @@ final class GestaltManager: ObservableObject {
         if (changesName || subtype != 0), let error = artworkEditingError { failed(error); return }
         guard changeCount > 0 else { return }
         if changesName && modelName.trimmingCharacters(in: .whitespacesAndNewlines).isEmpty { failed(GestaltFailure("Enter a model name before applying.")); return }
+        if versionSpoof.choice == .custom {
+            if let error = versionSpoof.validationError { failed(GestaltFailure(error)); return }
+            guard versionSpoof.hasInput else { failed(GestaltFailure("Enter a version, a build, or both before applying.")); return }
+        }
         isBusy = true
         defer { isBusy = false }
         do {

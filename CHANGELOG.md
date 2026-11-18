@@ -2,6 +2,12 @@
 
 English | [简体中文](CHANGELOG_ZH-CN.md)
 
+## [Unreleased]
+
+### Added
+
+- System Version: stage a custom marketing version and build, or restore the recorded originals. The spoof writes the MobileGestalt version keys (`qNNddlUK+B/YlooNoymwgA`, `mZfUC7qo4pURNhyMHZ62RQ`, `ToLFRidm+eJGWnpw6W4Wwg`) through the normal review, backup and verification flow.
+
 ## [1.1.1] - 2026-11-14
 
 Build `11140102`.
