@@ -1,0 +1,46 @@
+name: Build IPA (fork)
+
+# Fork-only convenience workflow. The upstream workflow targets the author's
+# self-hosted "xcode-27" runner; this one builds on GitHub-hosted macOS so a
+# fork can produce an IPA without that machine.
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  build:
+    strategy:
+      fail-fast: false
+      matrix:
+        os: [macos-latest, macos-26]
+    runs-on: ${{ matrix.os }}
+    timeout-minutes: 60
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Show toolchain
+        run: |
+          xcodebuild -version
+          xcrun --sdk iphoneos --show-sdk-version
+
+      - name: Build native device console
+        run: |
+          rustup target add aarch64-apple-ios aarch64-apple-ios-sim
+          command -v nasm >/dev/null || brew install nasm
+          cd Native/DeviceConsole
+          ./build-xcframework.sh
+
+      - name: Build IPA
+        id: build
+        run: |
+          export BUILD_DATE="$(date -u +%F)"
+          .github/scripts/build-ipa.sh "$RUNNER_TEMP/ipa"
+
+      - name: Upload IPA
+        uses: actions/upload-artifact@v4
+        with:
+          name: GestaltX-fork-${{ matrix.os }}
+          path: ${{ steps.build.outputs.ipa }}
+          if-no-files-found: error
