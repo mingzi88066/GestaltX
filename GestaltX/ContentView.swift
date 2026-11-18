@@ -348,6 +348,9 @@ struct ContentView: View {
             Section(L("Device")) {
                 LabeledContent(L("Model"), value: model.hasDocument ? model.displayedName : UIDevice.current.model)
                 LabeledContent("iOS", value: "\(UIDevice.current.systemVersion) (\(VersionSupport.label))")
+                if model.hasStoredSystemVersion {
+                    LabeledContent(L("MobileGestalt Version"), value: model.storedSystemVersionText)
+                }
                 LabeledContent(L("Status"), value: L(model.hasDocument ? (model.sourceIsDevice ? "Connected" : "Local File") : (model.isBusy ? "Reading…" : "Not Loaded")))
                 if let document = model.working {
                     LabeledContent("CacheExtra", value: String(document.extra.count))

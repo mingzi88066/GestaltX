@@ -36960,6 +36960,34 @@
           }
         }
       }
+    },
+    "MobileGestalt Version": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "MobileGestalt Version"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "MobileGestalt 版本"
+          }
+        },
+        "zh-Hant-TW": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "MobileGestalt 版本"
+          }
+        },
+        "zh-Hant-HK": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "MobileGestalt 版本"
+          }
+        }
+      }
     }
   },
   "version": "1.0"

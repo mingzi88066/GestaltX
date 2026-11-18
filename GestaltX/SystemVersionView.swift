@@ -7,14 +7,6 @@ import SwiftUI
 struct SystemVersionView: View {
     @EnvironmentObject private var model: GestaltManager
 
-    private var storedText: String {
-        switch (model.storedSystemVersion.isEmpty, model.storedSystemBuild.isEmpty) {
-        case (true, true): return L("Not present")
-        case (false, true): return model.storedSystemVersion
-        case (true, false): return model.storedSystemBuild
-        case (false, false): return "\(model.storedSystemVersion) (\(model.storedSystemBuild))"
-        }
-    }
     /// The running build is not exposed by UIDevice. CacheVersion carries the
     /// same build string that MobileGestalt recorded at boot.
     private var deviceBuild: String {
@@ -39,7 +31,7 @@ struct SystemVersionView: View {
         Form {
             Section(L("Current")) {
                 LabeledContent(L("Device"), value: "\(UIDevice.current.systemVersion) (\(VersionSupport.label))")
-                LabeledContent(L("MobileGestalt"), value: storedText)
+                LabeledContent(L("MobileGestalt"), value: model.storedSystemVersionText)
             }
             Section {
                 Picker(L("Version Spoof"), selection: $model.versionSpoof.choice) {

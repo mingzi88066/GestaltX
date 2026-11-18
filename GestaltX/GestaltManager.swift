@@ -216,6 +216,15 @@ final class GestaltManager: ObservableObject {
     var versionSpoofError: String? { versionSpoof.validationError }
     var storedSystemVersion: String { working?.extra[SystemVersionKey.productVersion] as? String ?? "" }
     var storedSystemBuild: String { working?.extra[SystemVersionKey.buildVersion] as? String ?? "" }
+    var hasStoredSystemVersion: Bool { !storedSystemVersion.isEmpty || !storedSystemBuild.isEmpty }
+    var storedSystemVersionText: String {
+        switch (storedSystemVersion.isEmpty, storedSystemBuild.isEmpty) {
+        case (true, true): return L("Not present")
+        case (false, true): return storedSystemVersion
+        case (true, false): return storedSystemBuild
+        case (false, false): return "\(storedSystemVersion) (\(storedSystemBuild))"
+        }
+    }
 
     var canRestoreSystemVersion: Bool {
         guard !isBusy, let snapshot, let working else { return false }
